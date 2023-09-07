@@ -1,0 +1,42 @@
+
+/* animation in all pages */
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform: translate3d(0, 40px, 0);
+  }
+  
+  .show{
+    opacity: 1;
+    transform: translate3d(0);
+  }
+  
+/* end of animation in all pages */
+
+/* animation in home */
+
+  .lefting{
+    opacity: 0;
+    transform: translateY(20px);
+    transform: translateX(-100%);
+    transition: all 1s;
+    filter: blur(5px);
+  }
+  
+  .unlefting{
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateX(0);
+    filter: blur(0px);
+  }
+  
+  .lefting:nth-child(2){
+    transition-delay: 400ms;
+  }
+  
+  .lefting:nth-child(3){
+    transition-delay: 800ms;
+  }
+  
+/* end of animation in home */

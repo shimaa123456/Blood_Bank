@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="icon" type="image/x-icon" href="../public/images/hayat-logo.svg">
+
+    <!-- css files -->
+    <link rel="stylesheet" href="../resources/font awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../public/css/login.css">
+    <link rel="stylesheet" href="../resources/font awesome/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="login-form">
+        <h1>Sign In </h1>
+        <form onsubmit="return validate()" action="home.html">
+            <table>
+                <tr>
+                    <td>
+                        <p id="error_name">Enter your username</p>
+                        <input type="text" id="user_name" name="user_name" placeholder="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="error_pass">Enter your password</p>
+                        <input type="password" id="password" name="password" placeholder="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="remember">Rembemer me
+                        <span id="forget">Forgot password?</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" id="submit" value="Login"></input></td>
+                </tr>
+                <tr>
+                    <td id="caption">Or login with</td>
+                </tr>
+                <tr>
+                    <td class="icons">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-google"></i>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+
+    <script src="../public/javascript/login.js"></script>
+
+</body>
+
+</html>

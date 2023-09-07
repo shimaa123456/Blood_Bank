@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(128, 230, 250); */
+    background-image: url('../images/background-3069469_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-form {
+    margin: 200px;
+    margin-top: 100px;
+    margin-left: 540px;
+    width: 390px;
+    background: #9c0404;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgb(135, 134, 130) 1px 1px 1px 1px;
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#user_name,
+#password {
+    background-color: #fff;
+    width: 18rem;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 14px;
+    margin-bottom: 12px;
+    padding: 0 45px 0 22px;
+    font-family: SourceSansPro-Bold;
+    font-size: 16px;
+    color: #999999;
+    line-height: 1.2;
+    box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.1);
+}
+#remember{
+    margin-left: 14px;
+    margin-right: 9px;
+}
+#forget{
+    margin-left: 40px;
+}
+#submit{
+    padding: 10px;
+    width: 8rem;
+    border-color: white;
+    color: #9c0404;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px;
+    text-align: center;
+    margin-left: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#caption{
+    padding-left: 80px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+td.icons{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+table tr td i{
+    padding-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#error_name,#error_pass{
+    margin-left: 23px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    display: none;
+    color: rgb(250, 228, 201);
+}

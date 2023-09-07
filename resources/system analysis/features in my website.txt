@@ -1,0 +1,54 @@
+
+
+                                                                     What I Use In My Website
+
+
+  
+     #JavaScript : 
+     ---------------
+     1- Home Page : 
+      
+        Validate Form => By displaying error message inside the input box that was displaying none and appear when error occur .
+
+        Make animation progress counter => that on first scroll make numbers start from 0 to the data-goal .
+
+
+
+     2- Get Help Page : 
+         
+        Patient Validate Form => We displaying error in the placeholder attribute , we make the placeholder data change with the error 
+                                 occur.
+
+        Add To Patient List => After we checked that patient form is validate , we add data the patient register in patient list 
+                               with other patients and appear the data in a div .
+
+
+     3- Our Donors Page :
+ 
+        Search The Donor => We used arrays and push data in it , when the user search for the donor he want and click submit if there
+                            is a donor that have the same values all will appear in a div .
+
+
+    4- Donate Page : 
+  
+       Donation validate Form => We make error message appear next to the input , when the foorm is validate an alert appear .
+                                  We make also reset button that onclick the data input clear .
+
+
+    5- Login Page :
+       
+       Login Validate => We make error span appear above the input , and when validate and click login send us to home page .
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+     #animation : 
+     ---------------  
+
+     1- in all pages we use a simple animation , we make it appear on scroll the window using javascript code .
+
+
+       
+
+         

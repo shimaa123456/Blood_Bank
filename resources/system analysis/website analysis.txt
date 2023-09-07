@@ -1,0 +1,66 @@
+
+
+
+
+                                                                   Website System Analysis
+                                                                -----------------------------
+
+
+      ===> About Blood Banks :
+          --------------------
+
+          Technological innovations have a significant impact on how every company and organization functions. Almost every industry has made the move 
+          to use various technologies to run their businesses and provide public services. The use of technology aids several industries in improving 
+          their operations and transactions and one of these is the blood banks. A blood bank is a facility that stores and preserves blood resources 
+          for use in transfusions. Blood banks keep track of blood supply, patient requests for blood, and donor and receiver records. Blood bank 
+          facilities require a reliable system to assist them to handle their everyday operations and transactions.
+
+
+
+
+      ===> HAYAT Website Overview :
+          -------------------------
+          
+          The website is for an Organization called "Hayat Blood Bank" that Help Save Lifes And Provide Blood For Patients. 
+          The website help patients find donors of the same blood type and allow them to register if they need blood and then the organization 
+          provide the blood for them at once.
+          The website allow donors also to donate bloods at the nearest blood center , make appointments online and choose the time they want .
+          ###this help people donate and also get blood if they are patients . 
+
+
+
+
+      ===> functional Requirements :
+          -------------------------
+
+          - show services
+          - get in touch & send message
+          - Display info about our donors
+          - display different events & Campaigns
+          - Registration and login
+          - Table of donors
+          - Online appointment for donate
+          - Display blood centers location and contact information
+
+
+
+
+      ===> non-functional Requirements :
+          ------------------------------
+
+          -performance: the website  should response quickly
+          -Security -> the website and its data protected against attacks.
+          -scalability-> the website is easy to use.
+          -capacity: the system needs to support at least 1000 people at once 
+          -availability: the system is avaliable all the time
+          -back-up:  the system offers the effeciency for data backup
+          -maintainability: the website should be easy to maintain and update
+          -multilingual support: the website should support multiple language
+
+
+
+
+
+
+
+      

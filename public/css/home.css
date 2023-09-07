@@ -1,0 +1,1183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* the header */
+header {
+  position: relative;
+}
+
+#homevideo {
+  width: 100%;
+}
+
+/* first nav */
+.first_nav {
+  color: rgb(153, 16, 16);
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+
+.icon i {
+  padding-right: 10px;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.mail {
+  display: inline-block;
+  margin-left: 90px;
+}
+
+.location {
+  display: inline-block;
+  margin-left: 35rem;
+}
+
+.admin {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+/* end of first nav */
+/* second nav */
+.second_nav {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  display: flex;
+}
+
+#logo>a>img {
+  width: 50%;
+}
+
+.nav_list {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: -12%;
+}
+
+.nav_list ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav_list ul li a {
+  color: black;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.nav_list ul li a:hover {
+  color: rgb(190, 24, 24);
+}
+
+.help {
+  margin-left: 25rem;
+}
+
+
+/* end of second nav */
+
+/* header text */
+
+.header_text {
+  position: absolute;
+  top: 35%;
+  left: 6%;
+  text-align: center;
+  font-family: "Abril", serif;
+  line-height: 80px;
+  letter-spacing: 0.7px;
+}
+
+.header_text h1 {
+  font-size: 60px;
+  color: rgb(164, 11, 11);
+}
+
+.header_text p {
+  font-weight: 900;
+  font-size: 30px;
+  color: black;
+}
+
+a.donate_btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  background-color: #ee3d32;
+  border-color: #ee3d32;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 24px;
+}
+
+a.donate_btn:hover {
+  background-color: #931e16;
+}
+
+/* end of header text */
+
+/* end of the header */
+
+/* our mission/vission/goal */
+.bar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #d6e8f1;
+  padding-top: 30px;
+  height: 250px;
+  margin-top: -10px;
+}
+
+div.goals i {
+  color: orange;
+  width: 65px;
+  height: 65px;
+  display: block;
+  font-size: 24px;
+  margin-right: 15px;
+  display: inline-block;
+  padding-top: 20px;
+  border: 2px #F28123 dotted;
+  border-radius: 999px;
+  padding-left: 20px;
+  margin-left: 100px;
+}
+
+div.goals h3 {
+  padding-top: 40px;
+  display: inline-block;
+}
+
+div.goals p {
+  margin-left: 80px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* end of our mission/vission/goal */
+
+/* about blood bank */
+.home_about {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+
+}
+
+.about-left-img img {
+  border-radius: 15px 15px 15px 15px;
+}
+
+.about-right-text {
+  margin-left: 80px;
+}
+
+.about-right-text h1 {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: Abril Fatface;
+  color: rgb(158, 21, 21);
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.about-right-text p {
+  color: rgba(58, 58, 58, 0.85);
+  font-family: Cabin;
+  line-height: 2;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.about-right-text button {
+  background-color: #931e16;
+  color: white;
+  border: #931e16 1px solid;
+  border-radius: 8%;
+  text-align: center;
+  padding: 14px;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
+.about-right-text button a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+/* end of about blood bank */
+
+/* our services  */
+/* all_ourservices header section */
+.ourservices_header {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.ourservices {
+  position: relative;
+}
+
+.ourservices::after {
+
+  position: absolute;
+  content: '';
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 50px;
+  height: 2px;
+  background-color: #c11b1b;
+  margin: -4px auto;
+}
+
+h1.ourservices {
+  text-align: center;
+  font-style: oblique;
+  color: black;
+  font-size: 45px
+}
+
+.our {
+  color: #b91a1a;
+}
+
+#p1 {
+  text-align: center;
+  font-size: 20px;
+  width: 530px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  color: #555;
+  padding-top: 24px;
+}
+
+/* end of all_ourservices header section  */
+/* our services row */
+.row {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  justify-content: space-evenly;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.row1:hover {
+  border: #d6e8f1 1px solid;
+  background-color: rgb(255, 255, 254);
+  box-shadow: 0 0 10px 0 #d3d2d2;
+}
+
+.row1 {
+  padding: 30px;
+}
+
+.row1 .img1 img {
+  border-radius: 15px 15px 15px 15px;
+}
+
+.row1 h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Abril Fatface;
+  font-size: 20px;
+  color: #9d150b
+}
+
+.row1 p {
+  color: rgba(58, 58, 58, 0.85);
+  font-family: Cabin;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.row1 button {
+  background-color: rgb(190, 24, 24);
+  border-radius: 30px;
+  border-color: #ac2117;
+  padding: 14px 25px;
+  border-width: 2px;
+}
+
+.row1 button a {
+  text-decoration: none;
+  color: white;
+  font-family: Gilroy;
+  font-size: 15px;
+}
+
+.row4 {
+  margin-right: 30px;
+}
+
+/* end of row */
+/* end of our services */
+
+/* bar */
+.giveblood {
+  background-image: url(../images/bar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.giveblood h3 {
+  width: 100%;
+  padding: 120px 95px 0px 45rem;
+  color: white;
+  line-height: 1.4em;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* end of bar */
+
+/* ways to help us */
+/*  section */
+.helpus_header {
+  margin-top: 100px;
+}
+
+.helpus_header h3 {
+  color: #2695cc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1.helpus {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+h1.helpus::after {
+
+  position: absolute;
+  content: '';
+  left: 0px;
+  right: 0px;
+  bottom: 10px;
+  width: 80px;
+  height: 3px;
+  background-color: #8e1212;
+  margin: -4px auto;
+}
+
+h1.helpus {
+  text-align: center;
+  font-style: oblique;
+  color: black;
+  font-size: 45px
+}
+
+
+/* the row part */
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.helpus-item {
+  width: 40%;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+.helpus-item3 {
+  padding-right: 60px;
+}
+
+.team-bg {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+.team-bg-1 {
+  background-image: url(../images/helpus1.jpg);
+}
+
+.team-bg-2 {
+  background-image: url(../images/helpus2.jpg);
+}
+
+.team-bg-3 {
+  background-image: url(../images/helpus3.jpg);
+}
+
+.helpus-item h4 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 180px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.helpus-item span {
+  font-size: 70%;
+  display: block;
+  margin-top: 10px;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 130px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+}
+
+ul.social-link {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+ul.social-link li {
+  display: inline-block;
+}
+
+ul.social-link li a {
+  color: #fff;
+  background-color: #f22323;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  margin: 5px;
+}
+
+/* end of row part */
+/* end of ways to help us */
+
+/* testimonials */
+/*REVIEW*/
+.row-customer {
+  max-width: 1140px;
+  margin: 0 auto 0 auto;
+}
+
+.row-customer:after {
+  clear: both;
+}
+
+.row-customer h2 {
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 60px;
+  font-family: Abril Fatface;
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(242, 131, 131);
+}
+
+.col-customer {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col-customer:first-child {
+  margin-left: 0;
+}
+
+.customer-box p {
+  font-size: 90%;
+  line-height: 145%;
+  text-align: center;
+}
+
+.span-1-of-3-customer {
+  width: 30%;
+}
+
+.span-3-of-3-customer {
+  width: 100%;
+}
+
+.span-2-of-3-customer {
+  width: 66.13%;
+}
+
+.customer-box {
+  padding: 1%;
+}
+
+.customer img {
+  float: left;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.customer p {
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: large;
+  color: #ffb6c1;
+}
+
+.customer-text-box {
+  line-height: 145%;
+  margin-bottom: 20px;
+  font-size: 90%;
+  margin-right: 15px;
+  margin-top: 70px;
+  margin: 70px 10px 20px 10px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.customer-text-box:before {
+  content: "\02EE";
+  display: block;
+  font-size: 500%;
+}
+
+.customer-review {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/review-background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  clear: both;
+  padding: 75px 0px;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+/* end of testimonial */
+
+/* world donor day */
+.donor-day {
+  display: flex;
+  height: 35rem;
+}
+
+.donor-day-img {
+  background-image: url(../images/donate-day.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  flex: 0 0 40%;
+}
+
+.donor-img-text {
+  background-color: rgba(25, 108, 179, 0.75);
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-top: 40px;
+  position: absolute;
+  left: 170px;
+
+}
+
+.donor-img-text::before {
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 2.5px;
+  background-color: #8e1212;
+  margin: -4px auto;
+}
+
+.donor-img-text1 {
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 1.6;
+  letter-spacing: 0px;
+  transition: .3s;
+}
+
+.donor-img-text2 {
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0px;
+  color: #ffffff;
+  transition: .3s;
+}
+
+.donor-img-text2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* donor day caption */
+.donor-day-caption {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.donor-day-caption h2 {
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  font-size: 46px;
+  line-height: 1.3;
+  letter-spacing: 0px;
+  transition: .3s;
+  margin-bottom: 20px;
+}
+
+.donor-day-caption p {
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+.donor-day-caption-form {
+  display: flex;
+}
+
+.donor-day-row1 h4 i {
+  color: #196cb3;
+}
+
+.donor-day-row1 h4 {
+  font-size: 23px;
+}
+
+.donor-day-row2 p {
+  width: 72%;
+}
+
+.donor-day-row2 h4 {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #555555;
+  font-size: 36px;
+  line-height: 1.6;
+  letter-spacing: 0px;
+}
+
+
+/* form */
+.register-row p {
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+.form-data {
+  position: relative;
+}
+
+.form-data label {
+  display: none;
+}
+
+.form-data input {
+  color: #555555;
+  background-color: #ffffff;
+  border-color: #cf162d;
+  padding: 14px 20px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+  display: block;
+  width: 100%;
+}
+
+.form-data span {
+  font-style: normal;
+  font-weight: 400;
+  color: #cf162d;
+  right: 23px;
+  top: 3px;
+  font-size: 10px;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  display: none;
+}
+
+.incorrect-email {
+  right: 23px;
+  top: 3px;
+  font-size: 10px;
+  position: absolute;
+  display: none;
+}
+
+#form-data-suc {
+  font-style: normal;
+  font-weight: 400;
+  color: #0a8e05;
+  position: relative;
+  font-size: 13px;
+  top: 5px;
+  display: none;
+}
+
+#form-data-unsuc {
+  font-style: normal;
+  font-weight: 400;
+  color: #cf162d;
+  position: relative;
+  font-size: 13px;
+  top: 5px;
+  display: none;
+}
+
+.form-data-button {
+  margin-top: 10px;
+  position: relative;
+}
+
+.form-data-button button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  background-color: #ee3d32;
+  border-color: #ee3d32;
+  border-radius: 0;
+  font-size: 14px;
+  min-width: 160px;
+  padding: 15px;
+}
+
+/* end of donor day */
+
+/* counter section */
+.counter-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/counter_bg.jpg);
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  clear: both;
+  padding: 75px 0px;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+
+.counter-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counter-block-1 {
+  width: 25%;
+  margin: 30px 70px;
+  background: #FFFFFF;
+  padding: 25px 5px;
+  text-align: center;
+}
+
+.counter-block-1 i {
+  border-radius: 0;
+  font-size: 48px;
+  line-height: 50px;
+  margin: 20px 0;
+  text-align: center;
+  color: #111;
+  opacity: 0.4;
+}
+
+.counter-block-1 .counter {
+  display: block;
+  margin-top: 0px;
+  font-size: 42px;
+  color: #FE3C47;
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+}
+
+.counter-block-1 h4 {
+  margin-top: 15px;
+  font-weight: 500;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 0.02em;
+  position: relative;
+}
+
+/* end of counter section */
+
+/* become a part of us */
+.becomepart-row {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding: 40px 0;
+  color: #333333;
+  border: 0px solid transparent;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+  transition: all 0.2s ease-out;
+  text-align: center;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+}
+
+.text-capitalize {
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 32px;
+  color: #555555;
+  line-height: 36px;
+  margin: 0 0 16px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.becomepart-row p {
+  margin-bottom: 0;
+  color: #777777;
+  font: 16px/28px 'Poppins', sans-serif;
+}
+
+.becomepart-btn {
+  text-decoration: none;
+  border: 0px;
+  background: #EF3D32;
+  transition: 0.3s 0.2s ease-out;
+  color: #FFFFFF;
+  display: inline-block;
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 36px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+/* end of become a part of us */
+
+
+
+
+/* the footer section */
+
+/* logo foot */
+.logo-foot {
+  height: 200px;
+  background-color: #051922;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.logo-foot img {
+  margin-left: 120px;
+}
+
+.logo-foot p {
+  color: white;
+  margin: 60px;
+  margin-right: 300px;
+  font: 16px/28px 'Poppins', sans-serif;
+}
+
+.logo-foot::after {
+  position: absolute;
+  content: '';
+  left: 0px;
+  right: 0px;
+  bottom: 10px;
+  width: 380px;
+  height: 3px;
+  background-color: #8e1212;
+  margin: -4px auto;
+}
+
+/*main foot */
+.foot {
+  height: 300px;
+  background-color: #051922;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.about_h2::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #F28123;
+  content: "";
+}
+
+.about3 h2 {
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.about2 h2::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #F28123;
+  content: "";
+}
+
+.about2 h2 {
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.about3 h2::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 2px;
+  background-color: #F28123;
+  content: "";
+}
+
+.about4 h2::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #F28123;
+  content: "";
+}
+
+.about4 h2 {
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.about {
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 30%;
+}
+
+.inabout {
+  color: #766e65;
+  margin-top: 14px;
+  width: 60%;
+}
+
+.about2 {
+  margin-top: 30px;
+  width: 45%;
+  margin-left: 22px;
+
+}
+
+.inabout2 {
+  color: #766e65;
+  margin-top: 14px;
+  width: 30%;
+}
+
+.about3 {
+  margin-top: 30px;
+  width: 30%;
+  margin-left: 22px;
+}
+
+.inabout3 {
+  color: #766e65;
+  margin-top: 14px;
+}
+
+.about4 {
+  margin-top: 30px;
+  width: 40%;
+
+}
+
+.inabout4 {
+  color: #766e65;
+  margin-top: 14px;
+}
+
+.about3 ul {
+  list-style: none;
+  margin-left: 1px;
+  padding: 0;
+  margin-top: 11px;
+}
+
+.about3 ul li {
+  padding-top: 11px;
+}
+
+.about3 ul li a:hover {
+  color: #f37106;
+}
+
+.about3 ul li a {
+  color: azure;
+  text-decoration: none;
+  margin-left: 0;
+  padding-left: 0;
+
+
+}
+
+.about3 ul i {
+  color: #f37106;
+  padding-right: 10px;
+}
+
+.about4 input {
+  background-color: #23043b;
+  color: azure;
+  height: 40px;
+  margin-top: 14px;
+}
+
+.about4 button {
+  background-color: #23043b;
+  color: azure;
+  height: 40px;
+  width: 50px;
+  margin-top: 14px;
+}
+
+.about4 button:hover {
+  background-color: #F28123;
+}
+
+hr {
+  margin: 0;
+  margin-left: 10px;
+  background-color: #181817;
+}
+
+div.fin {
+  color: white;
+  background-color: #051922;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.infin {
+  margin-left: 63px;
+  padding-top: 55px;
+}
+
+.fin span {
+  padding-top: 22px;
+  padding-bottom: 22px;
+
+}
+
+.fin div i {
+  margin-top: 15px;
+  padding: 4px;
+}
+
+.fin div i:hover {
+  color: #f32828;
+}
+
+/* end of footer section */
+
+
+
+
+
+
+
+
+
+
